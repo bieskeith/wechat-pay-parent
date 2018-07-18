@@ -1,0 +1,183 @@
+.panel-tool .layout-button-left {
+	display: none;
+}
+.panel-header, .panel-body {
+	border-color: transparent;
+}
+.layout-panel-west .panel-body {
+	border-right: 3px solid #E5E5E5;
+}
+.layout-split-west {
+	border-right: 0px;
+}
+.ap-content .panel {
+	padding: 0 5px 5px 5px;
+	margin-bottom: 8px;
+}
+.combo-p .combo-panel {
+	margin-top: 3px;
+}
+.panel-body-noheader .combobox-item {
+	padding: 6px;
+}
+.ap-content .panel-header {
+	height: 22px;
+	border-color: #dbdbde;
+	border-radius: 6px 6px 0 0;
+	background: -moz-linear-gradient(top, #f5f5f5, #e5e5e5, #cacaca);
+	background: -webkit-linear-gradient(top, #f5f5f5, #e5e5e5, #cacaca);
+	background: -o-linear-gradient(top, #f5f5f5, #e5e5e5, #cacaca);
+	background: -ms-linear-gradient(top, #f5f5f5, #e5e5e5, #cacaca);
+	background: linear-gradient(top, #f5f5f5, #e5e5e5, #cacaca);
+	-moz-box-shadow: 0px 1px 1px #fff inset;
+	-webkit-box-shadow: 0px 1px 1px #fff inset;
+	box-shadow: 0px 1px 1px #fff inset;
+}
+.panel-title {
+	color: #777;
+	height: 22px;
+	line-height: 20px;
+	text-shadow: 1px 1px 1px #fff;
+}
+.easyui-fluid .panel-body {
+	border-color: #e5e5e5;
+	border-radius: 0 0 5px 5px;
+	background-color: #fafafa;
+	box-shadow: 0px 1px 3px #eeeeee;
+}
+.panel-title {
+	padding-left: 8px;
+	font-weight: normal
+}
+.l-btn-text {
+	color: #333
+}
+.datagrid-pager .l-btn {
+	width: 14px;
+	height: 24px;
+	border-radius: 24px;
+	overflow: hidden;
+}
+.datagrid-pager .l-btn-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	font-size: 1px;
+	margin-left: -5px;
+}
+.ap-form-btn .l-btn {
+	width: 70px;
+	background: linear-gradient(to bottom, #6a6a6a, #313131);
+	border: none;
+}
+.l-btn-left .l-btn-text {
+	color: #efeeee;
+}
+.ap-form-btn .l-btn:hover {
+	background: linear-gradient(to bottom, #eb121b, #b3252c);
+	border: none;
+	color: #efeeee;
+}
+.ap-form-btn .l-btn:hover .l-btn-text {
+	color: #FFF
+}
+.combo-p .panel-body {
+	border-color: #e5e5e5;
+	border-radius: 0 0 5px 5px;
+	background-color: #fafafa;
+	box-shadow: 0px 1px 3px #eeeeee;
+}
+.combobox-item, .combobox-group {
+	font-size: 12px;
+	padding: 5px;
+	padding-right: 0px;
+}
+/*新增表格上面的按钮样式*/
+.l-btn-plain:hover {
+	border: none;
+	padding: 1px;
+}
+.ap-toolbar {
+	padding-left: 8px;
+}
+.ap-toolbar .l-btn {
+	background: linear-gradient(to bottom, #6a6a6a, #313131);
+	height: 26px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.ap-toolbar .l-btn:hover {
+	background: #4c555b;
+	border-color: #4c555b;
+	color: #FFF;
+}
+.ap-toolbar .l-btn:hover .l-btn-text {
+	color: #FFF
+}
+.easyui-combobox {
+	width: 150px;
+	height: 24px;
+}
+.easyui-textbox {
+	width: 142px;
+}
+.combo-arrow {
+	background-color: #262626;
+}
+.combo-arrow:hover {
+	background-color: #c51f26;
+}
+.combobox-item-selected {
+	background: #747474;
+	color: #fff;
+}
+.combobox-item-hover {
+	background-color: #c51f26;
+	color: #fff;
+}
+.easyui-linkbutton {
+	height: 26px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.easyui-linkbutton span {
+	color: #434c53;
+}
+.ap-toolbar .easyui-linkbutton:hover {
+	background: linear-gradient(to bottom, #eb121b, #b3252c);
+}
+.dialog-button .easyui-linkbutton {
+	background: linear-gradient(to bottom, #6a6a6a, #313131);
+}
+.dialog-button .l-btn-small {
+	border: none;
+	padding: 0 4px;
+}
+.dialog-button .l-btn-small:hover {
+	background: linear-gradient(to bottom, #eb121b, #b3252c);
+	border: none;
+	color: #efeeee;
+}
+.window-body .window, .window .window-body {
+	border-width: 1px;
+}
+.easyui-dialog {
+	width: 625px;
+	height: 240px;
+	padding-top: 30px;
+}
+.datagrid-row-selected{
+	background: #B3252C none repeat scroll 0% 0%;
+	color：#fff;
+}
+
+.ap-touxiang { float:left}
+
+

@@ -1,0 +1,109 @@
+body {
+	background-color: #e7e8ea;
+}
+.easyui-layout .panel-body {
+	background: none;
+}
+.ap-login-north {
+	overflow: hidden;
+	border: none;
+}
+.ap-l-content {
+	position: relative;
+	border-top: 1px solid #fff;
+}
+.ap-l {
+	background-color: #494e51;
+	height: 82px;
+	line-height: 82px;
+	overflow: hidden;
+}
+.ap-lhl {
+	float: left;
+	width: 355px;
+	height: 82px;
+	line-height: 82px;
+	background: url(../../images/biminds/login/logo.png) no-repeat 40px 50%;
+}
+.ap-lhr {
+	float: right;
+	width: 150px;
+	height: 82px;
+	line-height: 82px;
+	background: url(../../images/biminds/login/logo2.png) no-repeat 0 50%;
+}
+.ap-login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 548px;
+	height: 300px;
+	margin-left: -274px;
+	margin-top: -220px;
+}
+.ap-login h3 {
+	font-family: Helvetica, Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	color: #999;
+	text-shadow: 1px 1px 1px #fff;
+	margin-bottom: 18px;
+}
+.ap-login-form {
+	display: table;
+	position: relative;
+	width: 548px;
+	margin: 0 auto;
+	padding: 40px 0;
+	background-color: #f2f5fa;
+	border-radius: 6px;
+	text-align: center;
+	-moz-box-shadow: 0px 6px 15px #b9babd;
+	-webkit-box-shadow: 0px 6px 15px #b9babd;
+	box-shadow: 0px 6px 15px #b9babd;
+}
+.ap-login-form ul {
+	����display: table-cell;
+	vertical-align: middle;
+	margin: 0 90px 0 90px;
+}
+.ap-login-form li {
+	position: relative;
+	margin: 24px 0;
+}
+.ap-login-msg {
+	padding-left: 10px;
+	color: red;
+	text-align: left;
+}
+.ap-login-uname, .ap-login-pwd {
+	width: 330px;
+	height: 52px;
+	background: #e3e8ee url(../../images/biminds/login/u_name.png) 10px 50% no-repeat;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	padding-left: 45px;
+}
+.ap-login-pwd {
+	background: #e3e8ee url(../../images/biminds/login/u_pwd.png) 10px 50% no-repeat;
+}
+.ap-login-submit {
+	display: inline-block;
+	width: 371px;
+	height: 54px;
+	background: #4b5053 url(../../images/biminds/login/btn.png) 50% 50% no-repeat;
+	border-radius: 4px;
+}
+.ap-login-submit:hover {
+	background-color: #f2623c;
+}
+.ap-login-south {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	overflow: hidden;
+}

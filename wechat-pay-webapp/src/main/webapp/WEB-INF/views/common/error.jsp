@@ -1,16 +1,11 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<jsp:include page="/WEB-INF/views/common/taglibs.jsp" />
+<%@ page contentType="text/html; charset=UTF-8" trimDirectiveWhitespaces="true"%>
 <jsp:include page="/WEB-INF/views/common/tag.jsp" />
-<!-- 头部 -->
-<div style="background:#efefef;width:100%;float:left;padding-bottom:30px;border-bottom:1px solid #fff;height:745px;">
-	<div class="ap-404">
-		<div id="rocket"></div>
-		<p></p>
-		<h2>对不起,您访问页面暂时无法找到，</h2>
-		<h3><a href="${ctx}/system/portal">返回主页</a></h3>
-	</div>
+<jsp:include page="/WEB-INF/views/common/header.jsp" />
+<div data-options="region:'center'" class="ap-content" style="background-color: #bbb;">
+  <div class="ap-error-info">
+    <div class="ap-error-link">
+      <span class="">Ohh...</span>对不起，未找到该页面，您可以尝试 <a href="javascript:void(0);"
+        onclick="javascript:history.go(-1);">返回上一级>></a>
+    </div>
+  </div>
 </div>
-<%@include file="footer.jsp" %>
-<script src="${ctx}/js/script.js"></script>
-</body>
-</html>

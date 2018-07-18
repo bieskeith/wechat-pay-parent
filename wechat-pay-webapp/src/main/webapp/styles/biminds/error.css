@@ -1,0 +1,59 @@
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #d7d7d7;
+}
+.panel-body {
+	background-color: transparent;
+	/* background:url(../../images/biminds/error/car.png) no-repeat left bottom; */
+}
+.sys_header {
+	height: 55px;
+	background-color: #cdd4dc;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 2px 10px #b3bbc3;
+	padding-top: 5px;
+}
+.ap-error-info{
+	position:relative;
+	width:484px;
+	height:200px;
+	margin:0 auto;
+	margin-top:200px;
+	background:url(../../images/biminds/error/error.png) no-repeat;
+	text-align:center;
+	}
+.ap-error-link{
+	position:absolute;
+	left:50%;
+	bottom:0;
+	margin-left:-150px;}
+.ap-error-link span{
+	color:#df3832;
+	}
+.ap-error-link a{
+	display:inline-block;
+    padding:10px;
+	text-align:center;
+	border:1px solid #e8524d;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(top, #e8413c, #c51f16);
+	background: -moz-linear-gradient(top, #e8413c, #c51f16);
+	background: -o-linear-gradient(top, #e8413c, #c51f16);
+	background: -ms-linear-gradient(top, #e8413c, #c51f16);
+	background: linear-gradient(top, #e8413c, #c51f16);
+	box-shadow: 1px 1px 2px #aaaaaa;
+	-moz-box-shadow: 1px 1px 2px #aaaaaa;
+	-webkit-box-shadow: 1px 1px 2px #aaaaaa;
+	color:#ffe4e3;
+	cursor:pointer;
+	}
+.ap-error-link a:hover{
+	color:#fff;
+	text-decoration:underline;
+	}
+	
